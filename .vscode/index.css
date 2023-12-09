@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+#login-container{
+    max-width: 350px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: hwb(0 93% 5%);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#notes-container {
+    max-width: 450px;
+    min-height: 450px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    
+}
+
+h1 {
+    color: #333;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.text{
+    text-align: left;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+input,
+textarea {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn-align{
+    text-align: center;
+}
+
+.btn-btn {
+    padding: 10px;
+    background-color: hsl(51, 96%, 50%);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 15px;
+    height: 38px;
+    width:138px;
+}
+
+button:hover {
+    background-color: hsl(120, 2%, 61%);
+}
+
+button{
+    background-color: black;
+    border-radius: 10px;
+    color: hsl(51, 96%, 50%);
+    padding: 6px;
+    margin: 10px;
+}
+
+#notes-container {
+    display: none;
+}
+
+#notes-container button {
+    margin-right: 10px;
+}
+
+#note-form {
+    margin-top: 10px;
+}
+
+#folder-forms {
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+#user-display {
+    font-weight: bold;
+    color: #086cdf;
+}
+
+.note-container{
+    text-align: center;
+}
+
+#folder-selector {
+    margin-bottom: 10px;
+}
+
+#error-message {
+    color: red;
+    margin-top: 10px;
+}
+.btn{
+    text-align: center;
+}
