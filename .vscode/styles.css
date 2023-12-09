@@ -22,6 +22,12 @@ body {
     background-color: #fff;
     
 }
+.heading {
+    font-size: 25px;
+    color: hsl(51, 96%, 50%);
+    font-weight: bold;
+    font-family: sans-serif;
+}
 
 h1 {
     color: #333;
