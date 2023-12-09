@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="styles.css">
     <title>Notes App</title>
 </head>
 
@@ -32,9 +32,8 @@
         </div>
         <!-- Add these buttons for note actions -->
         <div class="note-container">
-        <button onclick="showCreateNoteForm()">Add a Note</button>
-        <button onclick="showCreateFolderForm()">Create Folder</button>
-        
+            <button onclick="showCreateNoteForm()">Add a Note</button>
+            <button onclick="showCreateFolderForm()">Create Folder</button>
         </div>
 
         <!-- Add a form for creating/editing notes -->
@@ -45,9 +44,8 @@
                 <button onclick="deleteNote()">Delete</button>
                 <button onclick="cancelNote()">Cancel</button>
             <div class="text">
-            <button onclick="saveNote()">Save</button>
-            
-        </div>
+                <button onclick="saveNote()">Save</button>
+            </div>
         </div>
 
         <!-- Add folder-related elements -->
@@ -56,16 +54,16 @@
             <input type="text" id="folder-name" placeholder="Folder Name" required>
             <button onclick="createFolder()">Create</button>
             <button onclick="showAddNoteToFolderForm()">Add Note to Folder</button>
-        <div>
-            <button onclick="addNoteToFolder()">Add to Folder</button>
-            <select id="folder-selector"></select>
+            <div>
+                <button onclick="addNoteToFolder()">Add to Folder</button>
+                <select id="folder-selector"></select>
+            </div>
         </div>
-    </div>
         <ul id="notes-list"></ul>
-        
     </div>
 
     <script src="index.js"></script>
+
 </body>
 
 </html>
