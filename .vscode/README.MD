@@ -15,7 +15,6 @@ Features:
 
 3.Folders - Option to create folders and add notes to it.
 
-       - Theres should be option to create folders and add notes to it.
-
+       - There should be option to create folders and add notes to it.
 
 ** Use localstorage as database storage for storing notes content and user login details.
