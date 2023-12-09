@@ -10,42 +10,45 @@
 
 <body>
     <div id="login-container">
-        <h1>Login</h1>
+        <h1 class="heading">Notes App</h1>
         <form id="login-form">
-            <label for="username">Username:</label>
+            <label for="username">Username</label>
             <input type="text" id="username" required>
             <br>
-            <label for="password">Password:</label>
+            <label for="password">Password</label>
             <input type="password" id="password" required>
             <br>
             <div class="btn-align">
-            <button class="btn-btn" type="button" onclick="login()">Login</button>
-            <button class="btn-btn" type="button" onclick="register()">Register</button>
-        </div>
+                 <button class="btn-btn" type="button" onclick="login()">Login</button>
+                 <button class="btn-btn" type="button" onclick="register()">Register</button>
+            </div>
         </form>
     </div>
 
     <div id="notes-container" style="display: none;">
-        <h1>Welcome, <span id="user-display"></span>!</h1>
+        <h1>Welcome to Smart Notes<span id="user-display"></span>!</h1>
         <div class="btn">
             <button class ="btn-btn" onclick="logout()">Logout</button>
         </div>
+
         <!-- Add these buttons for note actions -->
+
         <div class="note-container">
             <button onclick="showCreateNoteForm()">Add a Note</button>
             <button onclick="showCreateFolderForm()">Create Folder</button>
         </div>
 
         <!-- Add a form for creating/editing notes -->
+        
         <div id="note-form" style="display: none;">
             <h1 id="form-title"></h1>
             <textarea rows="8" id="note-input" placeholder="Write your note here..."></textarea>
                 <button onclick="showEditNoteForm()">Edit</button>
                 <button onclick="deleteNote()">Delete</button>
                 <button onclick="cancelNote()">Cancel</button>
-            <div class="text">
-                <button onclick="saveNote()">Save</button>
-            </div>
+                <div class="text">
+                   <button onclick="saveNote()">Save</button>
+                </div>
         </div>
 
         <!-- Add folder-related elements -->
